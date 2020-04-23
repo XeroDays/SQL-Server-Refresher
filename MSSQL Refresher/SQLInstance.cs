@@ -15,10 +15,10 @@ namespace MSSQL_Refresher
         }
          
         private string getDataSource()
-	    {
+	    {//Test
             string computerName=Environment.MachineName;
             string Instance = "SQLEXPRESS";
-
+               
             SqlDataSourceEnumerator instance =
              SqlDataSourceEnumerator.Instance;
             System.Data.DataTable table = instance.GetDataSources();
